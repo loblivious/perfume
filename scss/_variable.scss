@@ -1,0 +1,31 @@
+$font-family: 'SF Pro Text', '蘋方-繁', sans-serif;
+$font-base: 8px;
+$base-spacer: 12px;
+$font-size: (
+    "1": $font-base,            // 8px
+    "2": $font-base * 1.75,     // 14px
+    "3": $font-base * 2,        // 16px
+    "4": $font-base * 2.5,      // 20px
+    "5": $font-base * 3,        // 24px
+    "6": $font-base * 3.5,      // 28px
+    "7": $font-base * 4,        // 32px
+    "8": $font-base * 4.5,      // 36px
+    "9": $font-base * 5        // 40px
+);
+$grays: (
+    "1": #818A91,
+    "2": #A5A5A5,
+    "3": #8D8D8D
+);
+
+@each $key, $value in $font-size {
+    .font-size-#{$key} {
+        font-size: $value;
+    }
+}
+
+@each $key, $value in $grays {
+    .gray-#{$key} {
+        color: $value;
+    }
+}

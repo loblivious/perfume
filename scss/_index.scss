@@ -1,0 +1,57 @@
+.main-banner {
+    background: url("../images/index1.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.h-870 {
+    height: 870px;
+    @include mobile {
+        height: 480px;
+    }
+}
+
+.h-728 {
+    min-height: 728px;
+}
+
+.h-600 {
+    height: 600px;
+}
+
+.btn-training:hover {
+    background: $lightgray;
+    color: black;
+}
+
+.btn-shop:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.mw-382 {
+    max-width: 382px;
+}
+
+.item-card:hover {
+    transform: scale(1.05);
+    transition: all .5s ease 0s;
+    @include media-breakpoint-up(md) {
+        transform: scale(1.1);
+    }
+}
+
+.sold-out {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.footer-banner {
+    background: url("../images/index10.jpg") center center no-repeat;
+    background-size: cover;;
+}
+
+.background-md-secondary {
+    background-color: #707070;
+    @include media-breakpoint-up(md) {
+        background-color: white;
+    }
+}

@@ -1,0 +1,35 @@
+@import "bootstrap/bootstrap.scss";
+@import "reset";
+@import "variable";
+@import "mixin";
+@import "index";
+@import "product";
+@import "account";
+@import "item";
+@import "login";
+
+body {
+    font-family: $font-family;
+    color: $black;
+}
+
+.wrapper {
+    max-width: 1134px;
+}
+
+.text-hover-underline {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+main {
+    padding-top: 56px;
+}
+
+.position-md-absolute {
+    @include media-breakpoint-up(md) {
+        position: absolute;
+    }
+}

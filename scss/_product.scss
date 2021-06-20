@@ -1,0 +1,26 @@
+.margin-2-md-0 {
+    margin: 2px 0;
+    @include media-breakpoint-up(md) {
+        margin-bottom: 0;
+    }
+}
+
+.font-size-md-5 {
+    @include media-breakpoint-up(md) {
+        font-size: map-get($font-size, "5");
+    }
+}
+
+.margin-right-12 {
+    margin-right: $base-spacer;
+}
+
+.ratio-1x1 {
+    background: url("../images/index6.jpg") center 100% no-repeat;
+    background-size: cover;
+    padding-bottom: 100%;
+}
+
+.page-active-text-color {
+    color: #AC8A46;
+}
