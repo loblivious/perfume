@@ -46,7 +46,7 @@
 
 .footer-banner {
     background: url("../images/index10.jpg") center center no-repeat;
-    background-size: cover;;
+    background-size: cover;
 }
 
 .background-md-secondary {
@@ -54,4 +54,10 @@
     @include media-breakpoint-up(md) {
         background-color: white;
     }
+}
+
+.img-index3 {
+    background: url("../images/index3.png") center center no-repeat;
+    background-size: cover;
+    padding-bottom: 100%;
 }

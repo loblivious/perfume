@@ -5023,7 +5023,7 @@ fieldset:disabled .btn {
   color: white;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .navbar-light .navbar-nav .nav-link {
     color: #8D8D8D;
   }
@@ -14543,6 +14543,12 @@ ul {
   }
 }
 
+.img-index3 {
+  background: url("../images/index3.png") center center no-repeat;
+  background-size: cover;
+  padding-bottom: 100%;
+}
+
 .margin-2-md-0 {
   margin: 2px 0;
 }
@@ -14567,10 +14573,6 @@ ul {
   background: url("../images/index6.jpg") center 100% no-repeat;
   background-size: cover;
   padding-bottom: 100%;
-}
-
-.page-active-text-color {
-  color: #AC8A46;
 }
 
 .border-bot-gray-1 {
@@ -14650,5 +14652,9 @@ main {
   .position-md-absolute {
     position: absolute;
   }
+}
+
+.text-lighter-gold {
+  color: #AC8A46;
 }
 /*# sourceMappingURL=all.css.map */

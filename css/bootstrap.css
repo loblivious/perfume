@@ -5022,7 +5022,7 @@ fieldset:disabled .btn {
   color: white;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .navbar-light .navbar-nav .nav-link {
     color: #8D8D8D;
   }
